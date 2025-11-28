@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+    printf("Enter student age: ");
+    scanf("%d", &age);
+
+    if (age >= 18) {
+        printf("The student is eligible to vote\n");
+    } else {
+        printf("The student is not eligible to vote\n");
+    }
+
+    return 0;
+}
